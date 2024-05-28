@@ -1,8 +1,12 @@
 ---
 triple:          'x86_64-apple-darwin'
-binary-path:     '/Users/naeemganim/Desktop/NNR/main'
+binary-path:     main
 relocations:
-  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _printUserPasswords, symObjAddr: 0x0, symBinAddr: 0x100003CC0, symSize: 0xC0 }
-  - { offsetInCU: 0x42, offset: 0x42, size: 0x8, addend: 0x0, symName: _printUserPasswords, symObjAddr: 0x0, symBinAddr: 0x100003CC0, symSize: 0xC0 }
-  - { offsetInCU: 0x84, offset: 0x84, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xC0, symBinAddr: 0x100003D80, symSize: 0x149 }
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _showAllPasswords, symObjAddr: 0x0, symBinAddr: 0x100003A50, symSize: 0xA0 }
+  - { offsetInCU: 0x4E, offset: 0x4E, size: 0x8, addend: 0x0, symName: _showAllPasswords, symObjAddr: 0x0, symBinAddr: 0x100003A50, symSize: 0xA0 }
+  - { offsetInCU: 0x81, offset: 0x81, size: 0x8, addend: 0x0, symName: _registerUser, symObjAddr: 0xA0, symBinAddr: 0x100003AF0, symSize: 0xF0 }
+  - { offsetInCU: 0xCF, offset: 0xCF, size: 0x8, addend: 0x0, symName: _login, symObjAddr: 0x190, symBinAddr: 0x100003BE0, symSize: 0xB0 }
+  - { offsetInCU: 0x121, offset: 0x121, size: 0x8, addend: 0x0, symName: _vulnerableFunction, symObjAddr: 0x240, symBinAddr: 0x100003C90, symSize: 0x40 }
+  - { offsetInCU: 0x153, offset: 0x153, size: 0x8, addend: 0x0, symName: _print_menu, symObjAddr: 0x280, symBinAddr: 0x100003CD0, symSize: 0x30 }
+  - { offsetInCU: 0x168, offset: 0x168, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x2B0, symBinAddr: 0x100003D00, symSize: 0xFF }
 ...
